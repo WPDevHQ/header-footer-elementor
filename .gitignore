@@ -1,6 +1,24 @@
+# ignore PHPStorm extra directories
+.idea/
+
+# OS specific files
 .DS_Store
-Thumbs.db
-wp-cli.local.yml
+
+# Leave node_modules from git
 node_modules/
+
+# sass cache
+.sass-cache
+
+# ignore PHPCS report files
+phpcs-summary.log
+phpcs-full.log
+
+# Org Package
 *.zip
-*.tar.gz
+
+# Ignore Composer's directories
+vendor/
+
+# E2E test artifacts.
+artifacts/
